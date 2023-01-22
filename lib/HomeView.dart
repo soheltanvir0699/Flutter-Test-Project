@@ -29,8 +29,9 @@ class _HomeViewState extends State<HomeViewdata> {
           print(image);
             return ListTile(
               leading: ClipRRect(
-                borderRadius: BorderRadius.circular(25),
-                  child: SizedBox(height: 60,width: 60,child: Text(age.toString()))
+                borderRadius: BorderRadius.circular(10),
+                  child:
+                  Image.network("https://picsum.photos/150/150")
               ),
               title: Text(name),
               subtitle: Text(email),
